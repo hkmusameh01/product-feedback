@@ -4,16 +4,19 @@ import Main from "./components/Main";
 
 const StyledContainer = styled(Container)(({ theme }) => ({
   display: "flex",
-  marginTop: "2rem",
+  marginTop: "3.5rem",
   gap: "1.5rem",
-  [theme.breakpoints.down("md")]: {
+  [theme.breakpoints.down("lg")]: {
     flexDirection: "column",
   },
 }));
 
 const Feedback = () => {
   return (
-    <StyledContainer maxWidth="lg" disableGutters={true}>
+    <StyledContainer
+      disableGutters={true}
+      sx={{ maxWidth: "1400px !important" }}
+    >
       <Side />
       <Main />
     </StyledContainer>

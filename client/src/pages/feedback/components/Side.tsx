@@ -12,17 +12,17 @@ const roadmapFakeData = [
 const StyledBox = styled(Box)(({ theme }) => ({
   borderRadius: "var(--root-border-raduis)",
   padding: "var(--root-padding)",
-  [theme.breakpoints.down("md")]: {
-    maxWidth: "15rem",
-    height: "100%",
+  [theme.breakpoints.down("lg")]: {
+    width: "32%",
+    minHeight: "100%",
   },
 }));
 
 const StyledStack = styled(Stack)(({ theme }) => ({
-  flex: 2.2,
+  flex: 2,
   justifyContent: "space-between",
   height: "31.5rem",
-  [theme.breakpoints.down("md")]: {
+  [theme.breakpoints.down("lg")]: {
     flexDirection: "row",
   },
 }));
