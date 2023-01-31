@@ -1,0 +1,19 @@
+:root {
+  --root-border-raduis: 1rem;
+  --root-padding: 1rem 1.4rem;
+  --button-bg-color: #f0f2ff;
+  --button-bg-hover: #ccd5ff;
+  --button-color: #4761e6;
+  --button-border-raduis: 0.8rem;
+  --button-padding: 0.3rem 1.1rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #f7f8fd;
+  font-family: "Jost", sans-serif;
+}
