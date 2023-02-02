@@ -19,7 +19,7 @@ const StyledBox = styled(Box)(({ theme }) => ({
 }));
 
 const StyledStack = styled(Stack)(({ theme }) => ({
-  flex: 2,
+  flex: 1.8,
   justifyContent: "space-between",
   height: "31.5rem",
   [theme.breakpoints.down("lg")]: {
@@ -115,7 +115,11 @@ const Side = () => {
             justifyContent="space-between"
           >
             {roadmapFakeData.map((status, i) => (
-              <Stack flexDirection={"row"} justifyContent="space-between">
+              <Stack
+                key={i + status.status}
+                flexDirection={"row"}
+                justifyContent="space-between"
+              >
                 <RoadmapStatus
                   status={status.status}
                   color={status.color}

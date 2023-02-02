@@ -6,7 +6,7 @@ import Feedback from "./pages/feedback/Feedback";
 const App = () => {
   return (
     <Routes>
-      <Route path="/" element={<Feedback />} />
+      <Route path="/feedback" element={<Feedback />} />
     </Routes>
   );
 };

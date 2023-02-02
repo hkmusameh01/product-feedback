@@ -1,10 +1,11 @@
 import { Stack } from "@mui/material";
-import React from "react";
+
+import { Navbar } from "../../../components";
 
 const Main = () => {
   return (
     <Stack flex={6} bgcolor="#EEE">
-      Main
+      <Navbar />
     </Stack>
   );
 };

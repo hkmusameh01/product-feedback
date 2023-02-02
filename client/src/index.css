@@ -1,11 +1,13 @@
 :root {
   --root-border-raduis: 0.8rem;
   --root-padding: 1rem 1.4rem;
+  --main-font-family: "Jost", sans-serif;
   --button-bg-color: #f0f2ff;
   --button-bg-hover: #ccd5ff;
   --button-color: #4761e6;
-  --button-border-raduis: 0.8rem;
+  --button-border-raduis: 0.7rem;
   --button-padding: 0.3rem 1.1rem;
+  --nav-bar-bg: #373f67;
 }
 
 * {
