@@ -13,10 +13,7 @@ const StyledContainer = styled(Container)(({ theme }) => ({
 
 const Feedback = () => {
   return (
-    <StyledContainer
-      disableGutters={true}
-      sx={{ maxWidth: "1400px !important" }}
-    >
+    <StyledContainer maxWidth="lg" disableGutters={true}>
       <Side />
       <Main />
     </StyledContainer>

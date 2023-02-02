@@ -1,0 +1,11 @@
+#fade-menu
+  .css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+  box-shadow: none;
+  min-width: 250px;
+  box-shadow: 0 1rem 4rem -0.7rem hsl(230deg 30% 31% / 50%) !important;
+  margin-top: 0.8rem;
+}
+
+#fade-menu .css-6hp17o-MuiList-root-MuiMenu-list {
+  padding: 0;
+}
