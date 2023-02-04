@@ -1,6 +1,6 @@
 import { styled, Button } from "@mui/material";
 
-const StyledBtn = styled(Button)(({ theme }) => ({
+export const StyledBtn = styled(Button)(({ theme }) => ({
   backgroundColor: "var(--button-bg-color)",
   borderRadius: "var(--button-border-raduis)",
   fontFamily: "Jost",
@@ -15,7 +15,7 @@ const StyledBtn = styled(Button)(({ theme }) => ({
 
 const StyledButton = ({ content }: { content: string }) => {
   return (
-    <StyledBtn disableElevation href="#" sx={{}}>
+    <StyledBtn disableElevation href="#">
       {content}
     </StyledBtn>
   );
