@@ -1,4 +1,5 @@
 :root {
+  --body-bg-color: #eaebee;
   --root-border-raduis: 0.8rem;
   --root-padding: 1rem 1.4rem;
   --main-font-family: "Jost", sans-serif;
@@ -16,6 +17,6 @@
 }
 
 body {
-  background-color: #f7f8fd;
+  background-color: var(--body-bg-color);
   font-family: "Jost", sans-serif;
 }
